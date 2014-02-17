@@ -39,10 +39,13 @@ import urllib
 import lxml.html
 from docopt import docopt
 
-ver = '3.2'
-print """This is getmedia.py by myke ver. %s""" % (ver,)
+__author__  = 'Mikhail (myke) Kolodin'
+__version__ = '0.3'
+__date__    = '2014-02-17'
 
-para = docopt(__doc__, version=ver)
+print """This is getmedia.py by %s ver. %s of %s""" % (__author__, __version__, __date__)
+
+para = docopt(__doc__, version=__version__)
 
 mtypes = {
     'text':  'txt md mmd csv tab'.split(),
