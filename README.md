@@ -30,9 +30,19 @@ File types and groups
     dbms  (db sql)
     doc   (oc pdf ps docx xls ppt pptx odt odc odp)
     image (gif png tif tiff pcx cgm wpg jpg jpeg dxf pcl eps)
-    prog  (py pl c cpp h hpp bas js jsp bat cmd java forth ftn a68 pas tcl par)
+    prog  (py pl c cpp h hpp bas js jsp bat cmd java factor forth fth ftn a68 pas tcl par)
     tex   (tex bib bbl)
     text  (txt md mmd csv tab)
     video (mp4 wmv avi flv ogm filmmkv mkt mpeg mpg mxf 3gp swf rm vob ifo m2v m2p)
     www   (html html xml css js par)
+
+Requirements
+------------
+
+Uses docopt.
+
+Author
+------
+
+Mikhail (myke) Kolodin, mykespb@gmail.com
 

@@ -1,6 +1,6 @@
 #!python2
 # coding: utf-8
-# myke gm1.py 2012-11-23 2014-02-17 3.2
+# myke getmedia.py 2012-11-23 2014-02-17 3.3
 # get mp3 from given page
 # all received files are stored in subfolder 'files' (created if needed)
 # no repetetive file retrieves are made if file already exists locally
@@ -24,9 +24,9 @@ File types and groups:
   all
   audio (mp3 wav wma ogg aac aiff aob aud bwg cdr flac iff m3u ra m3u8 m4a m4b m4p m4r msv pa spl wm)
   dbms  (db sql)
-  doc   (oc pdf ps docx xls ppt pptx odt odc odp)
+  doc   (doc pdf ps docx xls ppt pptx odt odc odp)
   image (gif png tif tiff pcx cgm wpg jpg jpeg dxf pcl eps)
-  prog  (py pl c cpp h hpp bas js jsp bat cmd java forth ftn a68 pas tcl par)
+  prog  (py pl c cpp h hpp bas js jsp bat cmd java factor forth fth ftn a68 pas tcl par)
   tex   (tex bib bbl)
   text  (txt md mmd csv tab)
   video (mp4 wmv avi flv ogm filmmkv mkt mpeg mpg mxf 3gp swf rm vob ifo m2v m2p)
@@ -40,7 +40,7 @@ import lxml.html
 from docopt import docopt
 
 __author__  = 'Mikhail (myke) Kolodin'
-__version__ = '0.3'
+__version__ = '3.3'
 __date__    = '2014-02-17'
 
 print """This is getmedia.py by %s ver. %s of %s""" % (__author__, __version__, __date__)
@@ -55,7 +55,7 @@ mtypes = {
     'video': 'mp4 wmv avi flv ogm filmmkv mkt mpeg mpg mxf 3gp swf rm vob ifo m2v m2p'.split(),
     'image': 'gif png tif tiff pcx cgm wpg jpg jpeg dxf pcl eps'.split(),
     'dbms':  'db sql'.split(),
-    'prog':  'py pl c cpp h hpp bas js jsp bat cmd java forth ftn a68 pas tcl par'.split(),
+    'prog':  'py pl c cpp h hpp bas js jsp bat cmd java factor forth fth ftn a68 pas tcl par'.split(),
     'tex':   'tex bib bbl'.split(),
     }
 mtypes['mmedia'] = mtypes['audio'] + mtypes['video']
