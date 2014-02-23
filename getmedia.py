@@ -1,4 +1,4 @@
-#!python2
+#!/usr/bin/env python2.7
 # coding: utf-8
 # myke getmedia.py 2012-11-23 2014-02-17 3.3
 # get mp3 from given page
