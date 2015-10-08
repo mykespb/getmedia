@@ -1,7 +1,7 @@
 getmedia
 ========
 
-Python routine to get media files from internet
+Python routine to get media files from internet.
 
 Get media files from specified internet address 
 (with possible files number limit).
